@@ -1,0 +1,39 @@
+Added Component: Designator=C3(0805C-GENERIC)
+Added Component: Designator=C4(0805C-GENERIC)
+Added Component: Designator=C5(0805C-GENERIC)
+Added Component: Designator=C6(0805C-GENERIC)
+Added Component: Designator=C7(0805C-GENERIC)
+Added Component: Designator=C8(0805C-GENERIC)
+Added Component: Designator=C9(0805C-GENERIC)
+Added Component: Designator=C10(0805C-GENERIC)
+Added Component: Designator=C11(0805C-GENERIC)
+Added Component: Designator=C12(0805C-GENERIC)
+Added Pin To Net: NetName=5V Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=5V Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=5V Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=5V Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=5V Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=12V Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=LCD_LED Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=3V3_2 Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=3V3_2 Pin=C12-2
+Added Pin To Net: NetName=3V3_2 Pin=U3-6
+Added Member To Class: ClassName=General Overview Member=Component C3 10uF
+Added Member To Class: ClassName=General Overview Member=Component C4 10uF
+Added Member To Class: ClassName=General Overview Member=Component C5 10uF
+Added Member To Class: ClassName=General Overview Member=Component C6 10uF
+Added Member To Class: ClassName=General Overview Member=Component C7 10uF
+Added Member To Class: ClassName=General Overview Member=Component C8 10uF
+Added Member To Class: ClassName=General Overview Member=Component C9 10uF
+Added Member To Class: ClassName=General Overview Member=Component C10 10uF
+Added Member To Class: ClassName=General Overview Member=Component C11 10uF
+Added Member To Class: ClassName=General Overview Member=Component C12 10uF

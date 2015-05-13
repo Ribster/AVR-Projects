@@ -1,0 +1,6 @@
+Change Component DesignItemId : Designator=M1 Old DesignItemId=DC/DC convertor New DesignItemId=DC/DC XL6009E1
+Change Component DesignItemId : Designator=M2 Old DesignItemId=DC/DC convertor New DesignItemId=DC/DC XL6009E1
+Change Component Footprint: Designator=M1 Old Footprint=DCDC LM2596 New Footprint=DCDC XL6009E1
+Change Component Footprint: Designator=M2 Old Footprint=DCDC LM2596 New Footprint=DCDC XL6009E1
+Change Component Comment : Designator=M1 Old Comment=DC/DC LM2596 New Comment=DC/DC XL6009E1
+Change Component Comment : Designator=M2 Old Comment=DC/DC LM2596 New Comment=DC/DC XL6009E1

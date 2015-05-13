@@ -1,0 +1,30 @@
+Added Component: Designator=K7(XH4 2.54 H)
+Added Component: Designator=K8(XH4 2.54 H)
+Added Component: Designator=R12(0805R-10K)
+Added Pin To Net: NetName=5V Pin=K7-1
+Added Pin To Net: NetName=GND Pin=K8-3
+Added Pin To Net: NetName=5V Pin=R12-1
+Added Pin To Net: NetName=DATA IN_1 Pin=U1-9
+Added Pin To Net: NetName=DATA UIT_4 Pin=U1-10
+Added Pin To Net: NetName=CS_5V Pin=K7-2
+Added Pin To Net: NetName=CS_5V Pin=R4-1
+Added Pin To Net: NetName=CS_5V Pin=U1-14
+Added Net: Name=CS_5V
+Added Pin To Net: NetName=MISO_5V Pin=K7-4
+Added Pin To Net: NetName=MISO_5V Pin=U1-16
+Added Net: Name=MISO_5V
+Added Pin To Net: NetName=MOSI_5V Pin=K7-3
+Added Pin To Net: NetName=MOSI_5V Pin=R1-1
+Added Pin To Net: NetName=MOSI_5V Pin=U1-15
+Added Net: Name=MOSI_5V
+Added Pin To Net: NetName=RESET_5V Pin=K8-2
+Added Pin To Net: NetName=RESET_5V Pin=R12-2
+Added Pin To Net: NetName=RESET_5V Pin=U1-29
+Added Net: Name=RESET_5V
+Added Pin To Net: NetName=SCK_5V Pin=K8-1
+Added Pin To Net: NetName=SCK_5V Pin=R5-1
+Added Pin To Net: NetName=SCK_5V Pin=U1-17
+Added Net: Name=SCK_5V
+Added Member To Class: ClassName=General Overview Member=Component K7 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component K8 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component R12 10K

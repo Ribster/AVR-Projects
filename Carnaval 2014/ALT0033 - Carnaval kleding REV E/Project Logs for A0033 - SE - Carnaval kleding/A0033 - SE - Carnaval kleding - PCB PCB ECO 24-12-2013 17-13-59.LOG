@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=DATA IN_1 Pin=K3-1
+Added Pin To Net: NetName=5V Pin=K4-3
+Added Pin To Net: NetName=GND Pin=K4-4
+Added Pin To Net: NetName=5V Pin=K5-3
+Added Pin To Net: NetName=GND Pin=K5-4
+Added Pin To Net: NetName=DATA IN_1 Pin=K6-1
+Added Pin To Net: NetName=5V Pin=K6-3
+Added Pin To Net: NetName=GND Pin=K6-4
+Change Net Name : Old Net Name=DATA UIT_1 New Net Name=DATA UIT_4
+Added Pin To Net: NetName=DATA UIT_1 Pin=K5-1
+Added Pin To Net: NetName=DATA UIT_1 Pin=K6-2
+Added Net: Name=DATA UIT_1
+Added Pin To Net: NetName=DATA UIT_2 Pin=K4-1
+Added Pin To Net: NetName=DATA UIT_2 Pin=K5-2
+Added Net: Name=DATA UIT_2
+Added Pin To Net: NetName=DATA UIT_3 Pin=K3-1
+Added Pin To Net: NetName=DATA UIT_3 Pin=K4-2
+Added Net: Name=DATA UIT_3

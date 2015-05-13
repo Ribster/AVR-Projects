@@ -1,0 +1,70 @@
+Added Component: Designator=R1(0805R-680)
+Added Component: Designator=R2(0805R-680)
+Added Component: Designator=R3(0805R-680)
+Added Component: Designator=R4(0805R-680)
+Added Component: Designator=R5(0805R-680)
+Added Component: Designator=R6(0805R-680)
+Added Component: Designator=R7(0805R-680)
+Added Component: Designator=R8(0805R-680)
+Added Component: Designator=R9(0805R-680)
+Added Component: Designator=R10(0805R-680)
+Added Component: Designator=R11(0805R-680)
+Added Component: Designator=R12(0805R-680)
+Added Component: Designator=R13(0805R-680)
+Added Component: Designator=R14(0805R-680)
+Added Component: Designator=R15(0805R-680)
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Pin To Net: NetName=GND Pin=R12-2
+Added Pin To Net: NetName=GND Pin=R13-2
+Added Pin To Net: NetName=GND Pin=R14-2
+Added Pin To Net: NetName=GND Pin=R15-2
+Change Net Name : Old Net Name=LCD_CS New Net Name=LCD_CS_3V3
+Change Net Name : Old Net Name=LCD_DC New Net Name=LCD_DC_3V3
+Change Net Name : Old Net Name=LCD_MOSI New Net Name=LCD_MOSI_3V3
+Change Net Name : Old Net Name=LCD_RESET New Net Name=LCD_RESET_3V3
+Change Net Name : Old Net Name=LCD_SCK New Net Name=LCD_SCK_3V3
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=R6-1
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=R7-1
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=R8-1
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=R9-1
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=R10-1
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=R11-1
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=NetR7_2 Pin=R12-1
+Added Net: Name=NetR7_2
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=R13-1
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=NetR9_2 Pin=R14-1
+Added Net: Name=NetR9_2
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=NetR10_2 Pin=R15-1
+Added Net: Name=NetR10_2
+Added Member To Class: ClassName=General Overview Member=Component R1 680R
+Added Member To Class: ClassName=General Overview Member=Component R2 680R
+Added Member To Class: ClassName=General Overview Member=Component R3 680R
+Added Member To Class: ClassName=General Overview Member=Component R4 680R
+Added Member To Class: ClassName=General Overview Member=Component R5 680R
+Added Member To Class: ClassName=General Overview Member=Component R6 680R
+Added Member To Class: ClassName=General Overview Member=Component R7 680R
+Added Member To Class: ClassName=General Overview Member=Component R8 680R
+Added Member To Class: ClassName=General Overview Member=Component R9 680R
+Added Member To Class: ClassName=General Overview Member=Component R10 680R
+Added Member To Class: ClassName=General Overview Member=Component R11 680R
+Added Member To Class: ClassName=General Overview Member=Component R12 680R
+Added Member To Class: ClassName=General Overview Member=Component R13 680R
+Added Member To Class: ClassName=General Overview Member=Component R14 680R
+Added Member To Class: ClassName=General Overview Member=Component R15 680R

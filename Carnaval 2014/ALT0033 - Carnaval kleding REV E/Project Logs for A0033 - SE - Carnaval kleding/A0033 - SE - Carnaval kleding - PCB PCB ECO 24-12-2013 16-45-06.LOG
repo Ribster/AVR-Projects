@@ -1,0 +1,14 @@
+Added Component: Designator=M1(DCDC LM2596)
+Added Component: Designator=M2(DCDC LM2596)
+Added Pin To Net: NetName=VCC Pin=M1-IN+
+Added Pin To Net: NetName=GND Pin=M1-IN-
+Added Pin To Net: NetName=GND Pin=M1-OUT-
+Added Pin To Net: NetName=VCC Pin=M2-IN+
+Added Pin To Net: NetName=GND Pin=M2-IN-
+Added Pin To Net: NetName=GND Pin=M2-OUT-
+Added Pin To Net: NetName=5V Pin=M1-OUT+
+Added Net: Name=5V
+Added Pin To Net: NetName=12V Pin=M2-OUT+
+Added Net: Name=12V
+Added Member To Class: ClassName=General Overview Member=Component M1 DC/DC LM2596
+Added Member To Class: ClassName=General Overview Member=Component M2 DC/DC LM2596

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=SDI Pin=U1-9
+Removed Pin From Net: NetName=CKI Pin=U1-10
+Added Pin To Net: NetName=CKI Pin=U1-9
+Added Pin To Net: NetName=SDI Pin=U1-10
+Added Pin To Net: NetName=NetQ4_S Pin=U3-6

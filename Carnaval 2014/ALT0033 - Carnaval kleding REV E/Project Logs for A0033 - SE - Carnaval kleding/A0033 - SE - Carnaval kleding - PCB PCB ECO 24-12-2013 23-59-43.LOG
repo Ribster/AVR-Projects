@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=DATA IN_1 Pin=K6-1
+Removed Pin From Net: NetName=DATA UIT_1 Pin=K6-2
+Removed Pin From Net: NetName=5V Pin=K6-3
+Removed Pin From Net: NetName=GND Pin=K6-4
+Removed Pin From Net: NetName=GND Pin=K9-1
+Removed Pin From Net: NetName=PBRESET_1 Pin=K9-2
+Change Component Designator: OldDesignator=K4 NewDesignator=K5
+Change Component Designator: OldDesignator=K5 NewDesignator=K7
+Change Component Designator: OldDesignator=K7 NewDesignator=K9
+Change Component Designator: OldDesignator=K8 NewDesignator=K10
+Change Component Designator: OldDesignator=K9 NewDesignator=K4
+Added Component: Designator=K8(XH4 2.54 H)
+Added Pin To Net: NetName=PBRESET_1 Pin=K4-3
+Added Pin To Net: NetName=GND Pin=K4-4
+Added Pin To Net: NetName=DATA IN_1 Pin=K8-1
+Added Pin To Net: NetName=DATA UIT_1 Pin=K8-2
+Added Pin To Net: NetName=5V Pin=K8-3
+Added Pin To Net: NetName=GND Pin=K8-4
+Added Pin To Net: NetName=PB_PLUS1 Pin=K6-1
+Added Net: Name=PB_PLUS1
+Added Pin To Net: NetName=PB_PLUS2 Pin=K6-2
+Added Net: Name=PB_PLUS2
+Added Pin To Net: NetName=PB_PLUS3 Pin=K6-3
+Added Net: Name=PB_PLUS3
+Added Pin To Net: NetName=PB_PLUS4 Pin=K6-4
+Added Net: Name=PB_PLUS4
+Added Pin To Net: NetName=SCL_5V Pin=K4-2
+Added Pin To Net: NetName=SCL_5V Pin=U1-28
+Added Net: Name=SCL_5V
+Added Pin To Net: NetName=SDA_5V Pin=K4-1
+Added Pin To Net: NetName=SDA_5V Pin=U1-27
+Added Net: Name=SDA_5V
+Added Member To Class: ClassName=General Overview Member=Component K10 XH4 2.54 H

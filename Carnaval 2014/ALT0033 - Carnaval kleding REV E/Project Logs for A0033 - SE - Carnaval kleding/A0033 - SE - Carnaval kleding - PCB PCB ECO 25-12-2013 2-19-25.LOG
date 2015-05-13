@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=CKI Pin=U1-9
+Removed Pin From Net: NetName=SDI Pin=U1-10
+Removed Pin From Net: NetName=DATA IN_1 Pin=U1-11
+Removed Pin From Net: NetName=DATA UIT_4 Pin=U1-12
+Added Pin To Net: NetName=DATA IN_1 Pin=U1-9
+Added Pin To Net: NetName=DATA UIT_4 Pin=U1-10
+Added Pin To Net: NetName=SDI Pin=U1-11
+Added Pin To Net: NetName=CKI Pin=U1-12
+Added Pin To Net: NetName=PB_PLUS5 Pin=U1-30
+Added Pin To Net: NetName=PB_PLUS6 Pin=U1-31
+Added Pin To Net: NetName=PB_PLUS7 Pin=U1-32
+Added Pin To Net: NetName=3V3_2 Pin=U3-6

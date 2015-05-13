@@ -1,0 +1,8 @@
+0x01
+----
+first release
+
+0x02
+----
+correct the quaternion to euler conversion function to fit the
+aerospace sequence standard

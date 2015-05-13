@@ -1,0 +1,533 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm328p.o (exit)
+c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+                              A0034 - Carnaval kleding REV E.o (__do_copy_data)
+c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+                              A0034 - Carnaval kleding REV E.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+WS2801              0x0               A0034 - Carnaval kleding REV E.o
+WS2811              0xc8              A0034 - Carnaval kleding REV E.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm328p.o
+LOAD A0034 - Carnaval kleding REV E.o
+LOAD Final Programs.o
+LOAD Initialisations.o
+LOAD LCD.o
+LOAD LED Functions.o
+LOAD Light Functions.o
+LOAD RGB Functions.o
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libm.a
+END GROUP
+LOAD c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a
+LOAD c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x300c
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000068                __ctors_start = .
+ *(.ctors)
+                0x00000068                __ctors_end = .
+                0x00000068                __dtors_start = .
+ *(.dtors)
+                0x00000068                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000068        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm328p.o
+                0x00000068                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000068        0xc c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000074       0x16 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+                0x00000074                __do_copy_data
+ .init4         0x0000008a       0x10 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000008a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000009a        0x8 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000a2        0x4 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm328p.o
+                0x000000a2                __vector_22
+                0x000000a2                __vector_1
+                0x000000a2                __vector_24
+                0x000000a2                __vector_12
+                0x000000a2                __bad_interrupt
+                0x000000a2                __vector_6
+                0x000000a2                __vector_3
+                0x000000a2                __vector_23
+                0x000000a2                __vector_25
+                0x000000a2                __vector_11
+                0x000000a2                __vector_13
+                0x000000a2                __vector_17
+                0x000000a2                __vector_19
+                0x000000a2                __vector_7
+                0x000000a2                __vector_5
+                0x000000a2                __vector_4
+                0x000000a2                __vector_9
+                0x000000a2                __vector_2
+                0x000000a2                __vector_21
+                0x000000a2                __vector_15
+                0x000000a2                __vector_8
+                0x000000a2                __vector_14
+                0x000000a2                __vector_10
+                0x000000a2                __vector_16
+                0x000000a2                __vector_18
+                0x000000a2                __vector_20
+ .text          0x000000a6       0x16 A0034 - Carnaval kleding REV E.o
+                0x000000a6                main
+ .text          0x000000bc        0x0 Final Programs.o
+ .text          0x000000bc       0x18 Initialisations.o
+                0x000000bc                init
+ .text          0x000000d4      0xb46 LCD.o
+                0x000000d4                init_SPI
+                0x000000e8                send_SPI
+                0x000000f6                LCD_Wr_C
+                0x000000fe                LCD_Wr
+                0x00000106                Address_set
+                0x0000017a                Window
+                0x00000212                LCD_Init
+                0x0000035a                MaxWindow
+                0x00000394                CharEngine
+                0x00000466                CharacterWrite
+                0x000006bc                WriteTile
+                0x000008c6                LCD_Startscreen
+                0x00000946                setup
+                0x00000950                LCDTest
+ .text          0x00000c1a      0x192 LED Functions.o
+                0x00000c1a                WS2801_Update
+                0x00000c70                WS2801_SetColor
+                0x00000c76                WS2801_SetColorUpdate
+                0x00000c80                WS2801_Set_Delay_Update
+                0x00000d84                WS2801_Set_Delay_Update_All
+ .text          0x00000dac     0x18d8 Light Functions.o
+                0x00000dac                DEEL3
+                0x00000f76                DEEL1
+                0x00001102                DEEL2
+                0x000016d2                ALLON
+                0x000016ee                TEST
+                0x00001796                SONGMIX1
+                0x00002438                DebugSectionOne
+                0x000025ba                DebugSectionTwo
+ .text          0x00002684      0x984 RGB Functions.o
+                0x00002684                WS2811_Update
+                0x0000275c                WS2811_Update_Debug
+                0x00002834                WS2811_SetMidUpdate_Debug
+                0x00002882                WS2811_SetMid
+                0x000028cc                WS2811_SetMidAlternerend
+                0x0000294c                WS2811_SetMidUpdate
+                0x00002964                WS2811_SetGroupColor
+                0x00002ada                WS2811_SetGroupColorUpdate
+                0x00002ae4                WS2811_SetGroupRainbowColor
+                0x00002bba                WS2811_RotateGroup
+                0x00002e1a                WS2811_RotateGroupUpdate
+                0x00002e2c                WS2811_OneToEndGroupUpdate
+                0x00002e80                WS2811_DebugTest
+ .text          0x00003008        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .text          0x00003008        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x00003008        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+                0x00003008                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00003008        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00003008        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00003008        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+                0x00003008                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00003008        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+                0x00003008                _exit
+                0x00003008                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00003008        0x4 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000300c                _etext = .
+
+.data           0x00800100      0x218 load address 0x0000300c
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm328p.o
+ .data          0x00800100        0x0 A0034 - Carnaval kleding REV E.o
+ .data          0x00800100        0x0 Final Programs.o
+ .data          0x00800100        0x0 Initialisations.o
+ .data          0x00800100      0x117 LCD.o
+                0x00800100                Char_N
+                0x00800118                Char_K
+                0x00800130                Char_O
+                0x00800148                Char_6
+                0x00800160                Char_5
+                0x00800178                Char_4
+                0x00800190                Char_3
+                0x008001a8                Char_2
+                0x008001c0                Char_1
+                0x008001d8                TileColor_Good
+                0x008001db                TileColor_Bad
+                0x008001de                TileColor_Idle
+                0x008001e1                Tile_6_Dimensions
+                0x008001e9                Tile_6_State
+                0x008001ea                Tile_5_Dimensions
+                0x008001f2                Tile_5_State
+                0x008001f3                Tile_4_Dimensions
+                0x008001fb                Tile_4_State
+                0x008001fc                Tile_3_Dimensions
+                0x00800204                Tile_3_State
+                0x00800205                Tile_2_Dimensions
+                0x0080020d                Tile_2_State
+                0x0080020e                Tile_1_Dimensions
+                0x00800216                Tile_1_State
+ .data          0x00800217        0x0 LED Functions.o
+ .data          0x00800217       0x80 Light Functions.o
+                0x00800217                COLORS_RAINBOW
+ .data          0x00800297       0x80 RGB Functions.o
+ .data          0x00800317        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .data          0x00800317        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800317        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800318                . = ALIGN (0x2)
+ *fill*         0x00800317        0x1 00
+                0x00800318                _edata = .
+                0x00800318                PROVIDE (__data_end, .)
+
+.bss            0x00800318       0xc8
+                0x00800318                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800318        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x00800318        0x0 A0034 - Carnaval kleding REV E.o
+ .bss           0x00800318        0x0 Final Programs.o
+ .bss           0x00800318        0x0 Initialisations.o
+ .bss           0x00800318        0x0 LCD.o
+ .bss           0x00800318        0x0 LED Functions.o
+ .bss           0x00800318        0x0 Light Functions.o
+ .bss           0x00800318        0x0 RGB Functions.o
+ .bss           0x00800318        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .bss           0x00800318        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800318        0x0 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800318       0xc8 A0034 - Carnaval kleding REV E.o
+                0x00800318                WS2811
+                0x00800318                WS2801
+                0x008003e0                PROVIDE (__bss_end, .)
+                0x0000300c                __data_load_start = LOADADDR (.data)
+                0x00003224                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008003e0        0x0
+                0x008003e0                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008003e0                PROVIDE (__noinit_end, .)
+                0x008003e0                _end = .
+                0x008003e0                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000      0x6cc
+ *(.stab)
+ .stab          0x00000000      0x6cc c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm328p.o
+
+.stabstr        0x00000000       0x85
+ *(.stabstr)
+ .stabstr       0x00000000       0x85 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm328p.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x120
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 A0034 - Carnaval kleding REV E.o
+ .debug_aranges
+                0x00000020       0x20 Initialisations.o
+ .debug_aranges
+                0x00000040       0x20 LCD.o
+ .debug_aranges
+                0x00000060       0x20 LED Functions.o
+ .debug_aranges
+                0x00000080       0x20 Light Functions.o
+ .debug_aranges
+                0x000000a0       0x20 RGB Functions.o
+ .debug_aranges
+                0x000000c0       0x20 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_aranges
+                0x000000e0       0x20 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x00000100       0x20 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2689
+ *(.debug_info)
+ .debug_info    0x00000000      0x109 A0034 - Carnaval kleding REV E.o
+ .debug_info    0x00000109       0xce Initialisations.o
+ .debug_info    0x000001d7      0xea4 LCD.o
+ .debug_info    0x0000107b      0x3a7 LED Functions.o
+ .debug_info    0x00001422      0x5f4 Light Functions.o
+ .debug_info    0x00001a16      0x9dc RGB Functions.o
+ .debug_info    0x000023f2       0xdd c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_info    0x000024cf       0xdd c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_info    0x000025ac       0xdd c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xa15
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xac A0034 - Carnaval kleding REV E.o
+ .debug_abbrev  0x000000ac        0x1 Final Programs.o
+ .debug_abbrev  0x000000ad       0x87 Initialisations.o
+ .debug_abbrev  0x00000134      0x2a0 LCD.o
+ .debug_abbrev  0x000003d4      0x195 LED Functions.o
+ .debug_abbrev  0x00000569      0x263 Light Functions.o
+ .debug_abbrev  0x000007cc      0x20d RGB Functions.o
+ .debug_abbrev  0x000009d9       0x14 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_abbrev  0x000009ed       0x14 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00000a01       0x14 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+
+.debug_line     0x00000000     0x114d
+ *(.debug_line)
+ .debug_line    0x00000000      0x11a A0034 - Carnaval kleding REV E.o
+ .debug_line    0x0000011a        0x0 Final Programs.o
+ .debug_line    0x0000011a      0x109 Initialisations.o
+ .debug_line    0x00000223      0x3fc LCD.o
+ .debug_line    0x0000061f      0x218 LED Functions.o
+ .debug_line    0x00000837      0x3cc Light Functions.o
+ .debug_line    0x00000c03      0x3a3 RGB Functions.o
+ .debug_line    0x00000fa6       0x88 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_line    0x0000102e       0x91 c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_line    0x000010bf       0x8e c:/program files (x86)/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+
+.debug_frame    0x00000000      0x6c4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x24 A0034 - Carnaval kleding REV E.o
+ .debug_frame   0x00000024       0x24 Initialisations.o
+ .debug_frame   0x00000048      0x228 LCD.o
+ .debug_frame   0x00000270       0xb0 LED Functions.o
+ .debug_frame   0x00000320      0x128 Light Functions.o
+ .debug_frame   0x00000448      0x27c RGB Functions.o
+
+.debug_str      0x00000000      0x8af
+ *(.debug_str)
+ .debug_str     0x00000000       0xe8 A0034 - Carnaval kleding REV E.o
+                                0x11c (size before relaxing)
+ .debug_str     0x000000e8       0x17 Initialisations.o
+                                 0xfa (size before relaxing)
+ .debug_str     0x000000ff      0x435 LCD.o
+                                0x568 (size before relaxing)
+ .debug_str     0x00000534       0xe6 LED Functions.o
+                                0x237 (size before relaxing)
+ .debug_str     0x0000061a       0x95 Light Functions.o
+                                0x21b (size before relaxing)
+ .debug_str     0x000006af      0x200 RGB Functions.o
+                                0x3d0 (size before relaxing)
+
+.debug_loc      0x00000000     0x2e8a
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x16ad LCD.o
+ .debug_loc     0x000016ad      0x2be LED Functions.o
+ .debug_loc     0x0000196b      0x5a6 Light Functions.o
+ .debug_loc     0x00001f11      0xf79 RGB Functions.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(A0034 - Carnaval kleding REV E.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000      0x128
+ .debug_ranges  0x00000000       0x30 LCD.o
+ .debug_ranges  0x00000030       0x18 LED Functions.o
+ .debug_ranges  0x00000048       0x50 Light Functions.o
+ .debug_ranges  0x00000098       0x90 RGB Functions.o

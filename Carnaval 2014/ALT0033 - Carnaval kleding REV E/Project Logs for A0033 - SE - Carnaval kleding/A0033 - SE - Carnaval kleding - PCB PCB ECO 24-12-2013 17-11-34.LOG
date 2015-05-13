@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=5V Pin=K3-3
+Added Pin To Net: NetName=GND Pin=K3-4
+Added Pin To Net: NetName=DATA IN_1 Pin=K3-1
+Added Net: Name=DATA IN_1
+Added Pin To Net: NetName=DATA UIT_1 Pin=K3-2
+Added Net: Name=DATA UIT_1

@@ -1,0 +1,20 @@
+Added Component: Designator=Q?(SOT363_N)
+Added Component: Designator=R?(0805R-10K)
+Added Pin To Net: NetName=GND Pin=Q?-3
+Added Pin To Net: NetName=12V Pin=Q?-6
+Added Pin To Net: NetName=12V Pin=R?-1
+Added Pin To Net: NetName=LCD_CS_5V Pin=U1-14
+Added Pin To Net: NetName=LCD_MOSI_5V Pin=U1-15
+Added Pin To Net: NetName=LCD_SCK_5V Pin=U1-17
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=FET_GATE Pin=Q1-G
+Added Pin To Net: NetName=FET_GATE Pin=Q?-1
+Added Pin To Net: NetName=FET_GATE Pin=Q?-4
+Added Net: Name=FET_GATE
+Added Pin To Net: NetName=TOTEM Pin=Q?-2
+Added Pin To Net: NetName=TOTEM Pin=Q?-5
+Added Pin To Net: NetName=TOTEM Pin=R?-2
+Added Pin To Net: NetName=TOTEM Pin=U2-10
+Added Net: Name=TOTEM
+Added Member To Class: ClassName=General Overview Member=Component Q? BC847BPN
+Added Member To Class: ClassName=General Overview Member=Component R? 10K

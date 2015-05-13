@@ -1,0 +1,25 @@
+Added Component: Designator=P1(HDR1X9)
+Added Component: Designator=VR1(SOT223)
+Added Pin To Net: NetName=GND Pin=P1-8
+Added Pin To Net: NetName=5V Pin=P1-9
+Added Pin To Net: NetName=GND Pin=VR1-1
+Added Pin To Net: NetName=5V Pin=VR1-3
+Added Pin To Net: NetName=3V3 Pin=VR1-2
+Added Pin To Net: NetName=3V3 Pin=VR1-4
+Added Net: Name=3V3
+Added Pin To Net: NetName=LCD_CS Pin=P1-7
+Added Net: Name=LCD_CS
+Added Pin To Net: NetName=LCD_DC Pin=P1-5
+Added Net: Name=LCD_DC
+Added Pin To Net: NetName=LCD_LED Pin=P1-2
+Added Net: Name=LCD_LED
+Added Pin To Net: NetName=LCD_MISO Pin=P1-1
+Added Net: Name=LCD_MISO
+Added Pin To Net: NetName=LCD_MOSI Pin=P1-4
+Added Net: Name=LCD_MOSI
+Added Pin To Net: NetName=LCD_RESET Pin=P1-6
+Added Net: Name=LCD_RESET
+Added Pin To Net: NetName=LCD_SCK Pin=P1-3
+Added Net: Name=LCD_SCK
+Added Member To Class: ClassName=General Overview Member=Component P1 Header 9
+Added Member To Class: ClassName=General Overview Member=Component VR1 LD1117-SOT223

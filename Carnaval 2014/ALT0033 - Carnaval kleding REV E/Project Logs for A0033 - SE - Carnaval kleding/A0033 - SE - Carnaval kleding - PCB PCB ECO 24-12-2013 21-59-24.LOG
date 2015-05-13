@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=LCD_MOSI_3V3 Pin=R6-1
+Removed Pin From Net: NetName=LCD_DC_3V3 Pin=R7-1
+Removed Pin From Net: NetName=LCD_RESET_3V3 Pin=R8-1
+Removed Pin From Net: NetName=LCD_CS_3V3 Pin=R9-1
+Removed Pin From Net: NetName=LCD_SCK_3V3 Pin=R10-1
+Removed Member From Class: ClassName=General Overview Member=R11
+Removed Member From Class: ClassName=General Overview Member=R12
+Removed Member From Class: ClassName=General Overview Member=R13
+Removed Member From Class: ClassName=General Overview Member=R14
+Removed Member From Class: ClassName=General Overview Member=R15
+Change Component Designator: OldDesignator=R11 NewDesignator=R6
+Change Component Designator: OldDesignator=R12 NewDesignator=R7
+Change Component Designator: OldDesignator=R13 NewDesignator=R8
+Change Component Designator: OldDesignator=R14 NewDesignator=R9
+Change Component Designator: OldDesignator=R15 NewDesignator=R10
+Added Pin To Net: NetName=LCD_MOSI_3V3 Pin=R6-1
+Added Pin To Net: NetName=LCD_DC_3V3 Pin=R7-1
+Added Pin To Net: NetName=LCD_RESET_3V3 Pin=R8-1
+Added Pin To Net: NetName=LCD_CS_3V3 Pin=R9-1
+Added Pin To Net: NetName=LCD_SCK_3V3 Pin=R10-1

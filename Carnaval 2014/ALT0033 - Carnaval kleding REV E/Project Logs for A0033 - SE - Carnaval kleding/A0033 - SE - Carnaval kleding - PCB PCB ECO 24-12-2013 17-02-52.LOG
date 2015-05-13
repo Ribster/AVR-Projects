@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=12V Pin=K1-3
+Added Pin To Net: NetName=12V Pin=K2-1
+Added Pin To Net: NetName=12V Pin=K2-3
+Added Pin To Net: NetName=VLED Pin=K1-4
+Added Pin To Net: NetName=VLED Pin=K2-2
+Added Pin To Net: NetName=VLED Pin=K2-4
+Added Net: Name=VLED

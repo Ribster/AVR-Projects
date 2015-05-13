@@ -1,0 +1,20 @@
+Added Pin To Net: NetName=LCD_MOSI_3V3 Pin=R1-2
+Added Pin To Net: NetName=LCD_DC_3V3 Pin=R2-2
+Added Pin To Net: NetName=LCD_RESET_3V3 Pin=R3-2
+Added Pin To Net: NetName=LCD_CS_3V3 Pin=R4-2
+Added Pin To Net: NetName=LCD_SCK_3V3 Pin=R5-2
+Added Pin To Net: NetName=LCD_MOSI_3V3 Pin=R6-1
+Added Pin To Net: NetName=LCD_DC_3V3 Pin=R7-1
+Added Pin To Net: NetName=LCD_RESET_3V3 Pin=R8-1
+Added Pin To Net: NetName=LCD_CS_3V3 Pin=R9-1
+Added Pin To Net: NetName=LCD_SCK_3V3 Pin=R10-1
+Added Pin To Net: NetName=LCD_CS_5V Pin=R4-1
+Added Net: Name=LCD_CS_5V
+Added Pin To Net: NetName=LCD_DC_5V Pin=R2-1
+Added Net: Name=LCD_DC_5V
+Added Pin To Net: NetName=LCD_MOSI_5V Pin=R1-1
+Added Net: Name=LCD_MOSI_5V
+Added Pin To Net: NetName=LCD_RESET_5V Pin=R3-1
+Added Net: Name=LCD_RESET_5V
+Added Pin To Net: NetName=LCD_SCK_5V Pin=R5-1
+Added Net: Name=LCD_SCK_5V

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=RESET_5V Pin=R3-1
+Added Pin To Net: NetName=3V3_2 Pin=U3-6
+Added Pin To Net: NetName=LCD_RESET_5V Pin=R3-1
+Added Net: Name=LCD_RESET_5V

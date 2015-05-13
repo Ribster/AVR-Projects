@@ -1,0 +1,5 @@
+Added Component: Designator=K9(XH4 2.54 H)
+Added Pin To Net: NetName=GND Pin=K9-1
+Added Pin To Net: NetName=PBRESET_1 Pin=K9-2
+Added Net: Name=PBRESET_1
+Added Member To Class: ClassName=General Overview Member=Component K9 XH4 2.54 H

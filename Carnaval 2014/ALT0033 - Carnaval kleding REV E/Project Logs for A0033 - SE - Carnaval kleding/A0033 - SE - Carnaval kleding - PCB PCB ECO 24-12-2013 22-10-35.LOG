@@ -1,0 +1,20 @@
+Change Component DesignItemId : Designator=R6 Old DesignItemId=0805R-680 New DesignItemId=0805R-1K2
+Change Component DesignItemId : Designator=R7 Old DesignItemId=0805R-680 New DesignItemId=0805R-1K2
+Change Component DesignItemId : Designator=R8 Old DesignItemId=0805R-680 New DesignItemId=0805R-1K2
+Change Component DesignItemId : Designator=R9 Old DesignItemId=0805R-680 New DesignItemId=0805R-1K2
+Change Component DesignItemId : Designator=R10 Old DesignItemId=0805R-680 New DesignItemId=0805R-1K2
+Change Component Footprint: Designator=R6 Old Footprint=0805R-680 New Footprint=0805R-1K2
+Change Component Footprint: Designator=R7 Old Footprint=0805R-680 New Footprint=0805R-1K2
+Change Component Footprint: Designator=R8 Old Footprint=0805R-680 New Footprint=0805R-1K2
+Change Component Footprint: Designator=R9 Old Footprint=0805R-680 New Footprint=0805R-1K2
+Change Component Footprint: Designator=R10 Old Footprint=0805R-680 New Footprint=0805R-1K2
+Change Component Comment : Designator=R6 Old Comment=680R New Comment=1K2
+Change Component Comment : Designator=R7 Old Comment=680R New Comment=1K2
+Change Component Comment : Designator=R8 Old Comment=680R New Comment=1K2
+Change Component Comment : Designator=R9 Old Comment=680R New Comment=1K2
+Change Component Comment : Designator=R10 Old Comment=680R New Comment=1K2
+Added Member To Class: ClassName=General Overview Member=Component R6 1K2
+Added Member To Class: ClassName=General Overview Member=Component R7 1K2
+Added Member To Class: ClassName=General Overview Member=Component R8 1K2
+Added Member To Class: ClassName=General Overview Member=Component R9 1K2
+Added Member To Class: ClassName=General Overview Member=Component R10 1K2

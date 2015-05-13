@@ -1,0 +1,62 @@
+Added Component: Designator=K1(XH4 2.54 H)
+Added Component: Designator=K2(XH4 2.54 H)
+Added Component: Designator=K3(XH4 2.54 H)
+Added Component: Designator=K4(XH4 2.54 H)
+Added Component: Designator=K5(XH4 2.54 H)
+Added Component: Designator=K6(XH4 2.54 H)
+Added Component: Designator=K7(XH4 2.54 H)
+Added Component: Designator=K9(XH4 2.54 H)
+Added Component: Designator=K10(XH4 2.54 H)
+Added Component: Designator=K11(XH4 2.54 H)
+Added Pin To Net: NetName=VCC Pin=K1-1
+Added Pin To Net: NetName=GND Pin=K1-2
+Added Pin To Net: NetName=12V Pin=K1-3
+Added Pin To Net: NetName=VLED Pin=K1-4
+Added Pin To Net: NetName=12V Pin=K2-1
+Added Pin To Net: NetName=VLED Pin=K2-2
+Added Pin To Net: NetName=12V Pin=K2-3
+Added Pin To Net: NetName=VLED Pin=K2-4
+Added Pin To Net: NetName=DATA UIT_3 Pin=K3-1
+Added Pin To Net: NetName=DATA UIT_4 Pin=K3-2
+Added Pin To Net: NetName=5V Pin=K3-3
+Added Pin To Net: NetName=GND Pin=K3-4
+Added Pin To Net: NetName=SDA_5V Pin=K4-1
+Added Pin To Net: NetName=SCL_5V Pin=K4-2
+Added Pin To Net: NetName=RESET_5V Pin=K4-3
+Added Pin To Net: NetName=GND Pin=K4-4
+Added Pin To Net: NetName=DATA UIT_2 Pin=K5-1
+Added Pin To Net: NetName=DATA UIT_3 Pin=K5-2
+Added Pin To Net: NetName=5V Pin=K5-3
+Added Pin To Net: NetName=GND Pin=K5-4
+Added Pin To Net: NetName=PB_PLUS1 Pin=K6-1
+Added Pin To Net: NetName=PB_PLUS2 Pin=K6-2
+Added Pin To Net: NetName=PB_PLUS3 Pin=K6-3
+Added Pin To Net: NetName=PB_PLUS4 Pin=K6-4
+Added Pin To Net: NetName=DATA UIT_1 Pin=K7-1
+Added Pin To Net: NetName=DATA UIT_2 Pin=K7-2
+Added Pin To Net: NetName=5V Pin=K7-3
+Added Pin To Net: NetName=GND Pin=K7-4
+Added Pin To Net: NetName=5V Pin=K9-1
+Added Pin To Net: NetName=CS_5V Pin=K9-2
+Added Pin To Net: NetName=MOSI_5V Pin=K9-3
+Added Pin To Net: NetName=MISO_5V Pin=K9-4
+Added Pin To Net: NetName=SCK_5V Pin=K10-1
+Added Pin To Net: NetName=RESET_5V Pin=K10-2
+Added Pin To Net: NetName=3V3_2 Pin=K10-3
+Added Pin To Net: NetName=GND Pin=K10-4
+Added Pin To Net: NetName=PB_PLUS5 Pin=K11-1
+Added Pin To Net: NetName=PB_PLUS6 Pin=K11-2
+Added Pin To Net: NetName=PB_PLUS7 Pin=K11-3
+Added Pin To Net: NetName=PB_PLUS8 Pin=K11-4
+Added Pin To Net: NetName=3V3_2 Pin=U3-6
+Added Member To Class: ClassName=General Overview Member=Component K1 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component K2 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component K3 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component K4 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component K5 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component K6 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component K7 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component K8 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component K9 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component K10 XH4 2.54 H
+Added Member To Class: ClassName=General Overview Member=Component K11 XH4 2.54 H
